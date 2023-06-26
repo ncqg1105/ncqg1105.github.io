@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Đọc sách</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="read.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
+        <img src = "images/book-icon (1).png" alt = "site icon">
+        <span class = "text-uppercase fw-lighter ms-2">BOOKS</span>
+      </a>
+      <span class="navbar-text mx-auto">Đọc sách</span>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <!-- Aside -->
+        <aside>
+          <ul>
+            <li><a href="#">Số trang: 300</a></li>
+            <li><a href="#">Nhà xuất bản: Nhà Xuất Bản Trẻ
+            </a></li>
+          </ul>
+        </aside>
+      </div>
+      <div class="col-lg-9">
+        <!-- Book Content -->
+        <div class="book">
+          <div class="book-cover">
+            <img src="data:image/jpeg;base64,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" alt="Ảnh bìa sách">
+          </div>
+          <div class="book-content">
+            <h2>Trên đường băng</h2>
+            <p>Trên đường băng
+                Cuốn sách giống như 1 chuyến bay, có 3 phần là Chuẩn bị hành trang, ngồi phòng chờ sân bay & lên đường thì phần 1 được xem là phần chuẩn bị cũng được đề cập dài nhất & đặc sắc nhất. Bạn trẻ nuôi chí lớn sẽ ngất ngây với những bài viết đặc sắc như Chuyện thằng Quân, chuyện thằng Kiên, chuyện củ trấu, chị lái đò…
+
+                Có lẽ bất cứ ai nhìn thấy tên những bài viết trên thì sẽ giật mình và chắc chắn là nếu không đọc thì không thể hiểu được nội dung bài viết đang hướng tới cái gì. Chẳng hạn như chuyện thằng Quân, tác giả dẫn dụ người đọc đi một đoạn đường rất dài khi kể về một người trưởng phòng trẻ tuổi để rồi dẫn tới cái kết bất ngờ: Thế rốt cuộc the mission of life của bạn là gì? Người đọc chắc hẳn sẽ không khỏi suy ngẫm khi bước tới những dòng cuối cùng của bài viết.
+                
+                Trong phần 1 thì một vài bài viết cũng thuộc dạng hài hước & dí dỏm như Bệnh nghiện internet, kể về câu chuyện 1 anh chàng làm văn phòng lương 5 triệu, gần 30 tuổi rồi mà không có bạn gái, không biết làm gì cho đời, ăn xong đi làm rồi về ngủ & lên mạng “chém gió”. Tác giả có lời khuyên với những ai như vậy là “hãy vứt laptop đi, rồi ra ngoài đi nhặt rác…”
+                
+                Còn với những ai thích nghe lời khuyên về bài học kinh doanh trên mạng, tác giả kể một câu chuyện cười về anh chàng Tony đăng đàn internet hỏi “có nên mở nhà máy củi trấu để xuất qua mấy nước ôn đới làm nhiên liệu sinh học không”. Có một anh chàng tên Thành, ở dưới Tiền Giang, tư vấn nhiệt tình lắm. Tony nghe theo thôi là nghe, vì ảnh nói ảnh xuất khẩu mấy lô rồi, cung không đủ cầu. Anh Thành cho địa chỉ cơ sở sản xuất của anh ở dưới quê, nói xuống tham quan, khuyên Tony cứ làm đi, ảnh giúp cho bao tiêu sản phẩm. Mấy tháng trời lo dự án, chuẩn bị xong xuôi hết, máy móc thiết bị nhân lực gì đầy đủ cả. Tony quyết định xuống tận Tiền Giang đón anh Thành đi khai trương nhà máy.
+                
+                Vô nhà, nói cho tui gặp anh Thành, bà mẹ nói: “Nhà tui có ông Thành nào đâu, chỉ có thằng Thành đang học lớp 8, bữa nay nó đi thi học kỳ một chưa về”. Mình ngồi chờ để hỏi cho ra nhẽ, thấy nó đạp xe đi về, cười ha hả, nói” con tra google rồi tưởng tượng và hướng dẫn cho chú đó, chứ con có biết gì về ngành đó đâu chú. Con còn đi học mà”.
+                
+                        </p>
+                        <button class="btn btn-primary" onclick="window.location.href='https://drive.google.com/file/d/1ALqTv7EEkXj_e6Av7Y4neTFIejvKqX9c/view'">Đọc sách</button>                      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-3">
+    <div class="container">
+      <p>Bản quyền © 2023 Đọc sách. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Đọc sách</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="read.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
+
+        <img src = "images/book-icon (1).png" alt = "site icon">
+        <span class = "text-uppercase fw-lighter ms-2">BOOKS</span>
+      </a>
+      <span class="navbar-text mx-auto">Đọc sách</span>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <!-- Aside -->
+        <aside>
+          <ul>
+            <li><a href="#">Số trang: 123</a></li>
+            <li><a href="#">Nhà xuất bản: Nhà Xuất Bản Văn Học
+            </a></li>
+          </ul>
+        </aside>
+      </div>
+      <div class="col-lg-9">
+        <!-- Book Content -->
+        <div class="book">
+          <div class="book-cover">
+            <img src="data:image/jpeg;base64,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" alt="Ảnh bìa sách">
+          </div>
+          <div class="book-content">
+            <h2>Truyện Kiều</h2>
+            <p>
+              Truyện Kiều được viết bằng chữ Nôm dựa theo tác phẩm Kim Vân Kiều truyện của Thanh Tâm Tài Nhân, Trung Quốc. Hiện nay, ở Việt Nam lưu truyền một số dị bản của tác phẩm này.
+
+              Truyện Kiều là tiểu thuyết viết bằng thơ lục bát. Truyện phản ánh xã hội đương thời thông qua cuộc đời của nhân vật chính Vương Thuý Kiều. Xuyên suốt tác phẩm là chữ “tâm” theo như Nguyễn Du đã tâm niệm “Linh Sơn chỉ tại nhữ tâm đầu” (nghĩa là “Linh Sơn chỉ ở lòng người thôi”).
+                                </p>
+                                <button class="btn btn-primary" onclick="window.location.href='https://drive.google.com/file/d/1g5gag5qBhWeeFqoAlMWf0WLOIhkzzfA0/view'">Đọc sách</button>            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-3">
+    <div class="container">
+      <p>Bản quyền © 2023 Đọc sách. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

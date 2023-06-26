@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Đọc sách</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="read.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
+
+        <img src = "images/book-icon (1).png" alt = "site icon">
+        <span class = "text-uppercase fw-lighter ms-2">BOOKS</span>
+      </a>
+      <span class="navbar-text mx-auto">Đọc sách</span>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <!-- Aside -->
+        <aside>
+          <ul>
+            <li><a href="#">Số trang: 162 </a></li>
+            <li><a href="#">Nhà xuất bản: Nhà Xuất Bản Dân Trí
+            </a></li>
+          </ul>
+        </aside>
+      </div>
+      <div class="col-lg-9">
+        <!-- Book Content -->
+        <div class="book">
+          <div class="book-cover">
+            <img src="data:image/jpeg;base64,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" alt="Ảnh bìa sách">
+          </div>
+          <div class="book-content">
+            <h2>Trại hoa vàng</h2>
+            <p>
+              Trại Hoa Vàng
+
+              Có lẽ hiếm có nhà văn nào ở Việt Nam lại có thể hiểu được tâm lý tuổi mới lớn như chú Ánh. Tôi đã đọc hàng chục tác phẩm của chú và có cảm giác như những tác phẩm đó sẽ không bao giờ cũ đối với những thế hệ sau. Đương nhiên, truyện Trại Hoa Vàng cũng không phải là ngoại lệ.
+              
+              Từng trang sách đã dẫn bước tôi vào một thế giới lạ kì với muôn vàn cảm xúc khác nhau. Nhưng có lẽ hai hình ảnh mà tôi ấn tượng nhất chính là cái tam giác “Béc-mu-đa” – chi tiết mà mỗi lần nghĩ đến tôi không thể nhịn được cười, và không thể không nhắc đến cái kết ấn tượng, khiến người đọc không khỏi suy ngẫm: trong không gian thơ mộng của Chuẩn và Cẩm Phô, anh chợt nhận ra sự hiện diện của cô bạn hàng xóm bé nhỏ, người mà có lẽ đã mến anh từ lâu lắm rồi.
+              
+              Đây là một trong những truyện dài mang đầy đủ đặc trưng văn phong của chú Nguyễn Nhật Ánh: hài hước, trong sáng, nhẹ nhàng, và cái kết dù có hậu vẫn thoáng chút man mác buồn. Bạn đọc chắc không thể quên được chi tiết hài hước “tam giác Béc-mu-đa” trong câu chuyện.
+                                </p>
+            <button class="btn btn-primary" onclick="window.location.href='https://drive.google.com/file/d/1bn3oU57wVAOfGpJRfdN-d0cxT_SHNIrT/view'">Đọc sách</button>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-3">
+    <div class="container">
+      <p>Bản quyền © 2023 Đọc sách. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
